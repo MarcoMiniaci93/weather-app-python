@@ -1,0 +1,25 @@
+		Riepilogo del progetto per un’app Meteo
+Cosa fa la mia app:
+La mia app meteo permette di consultare il meteo attuale e una previsione di più giorni per qualsiasi città inserita dall’utente. Dopo aver digitato il nome della città e il numero di giorni desiderati, il programma utilizza prima il servizio di geocoding di Open-Meteo per trovare le coordinate corrette della località. Successivamente invia queste coordinate all’API meteo per ottenere i dati aggiornati. L’app mostra in modo chiaro la temperatura corrente, una breve descrizione del tempo e l’elenco delle previsioni giornaliere con temperatura minima e massima. Ho scelto una visualizzazione da terminale semplice, ordinata e leggibile, così che il risultato finale fosse immediato da capire anche senza un’interfaccia grafica complessa.
+Specifiche dell’app (con screenshots):
+L’app Meteo include le seguenti funzionalità:
+•	Inserimento del nome della città da tastiera
+•	Scelta del numero di giorni di previsione
+•	Recupero del meteo attuale della città richiesta
+•	Visualizzazione della previsione da 3 a 5 giorni
+•	Traduzione delle date in formato italiano
+•	Descrizione testuale delle condizioni meteo, come sereno, coperto o nebbia
+•	Gestione ordinata dell’output direttamente nel terminale
+
+Come ho usato l’AI:
+Ho utilizzato l’intelligenza artificiale come supporto durante lo sviluppo del progetto. Mi ha aiutato a convertire il codice iniziale in Python, a migliorare l’organizzazione delle funzioni e a rendere l’output più leggibile. L’AI è stata utile anche per riflettere sulla gestione degli errori, sulla formattazione delle date e sulla struttura generale dell’applicazione. In ogni caso ho cercato di leggere e capire ogni suggerimento ricevuto, mantenendo il controllo sul codice finale invece di limitarmi a copiarlo.
+
+Cosa ho imparato e cosa è stato una sfida:
+Questo progetto mi ha aiutato a capire meglio come lavorare con API esterne, come trasformare i dati JSON in informazioni utili e come organizzare un programma in funzioni riutilizzabili. Una delle sfide principali è stata gestire correttamente il flusso delle richieste: prima trovare la città, poi recuperare il meteo e infine presentare tutto in un formato pulito. Anche la conversione delle date in italiano e la scelta di descrizioni meteo leggibili hanno richiesto attenzione. Inoltre ho capito che scrivere codice funzionante non basta: è importante anche presentare il risultato in modo chiaro per l’utente.
+
+Una cosa di cui sono orgoglioso:
+Sono soddisfatto del fatto che l’app riesca a svolgere un compito reale in modo semplice ma completo. Inserendo una città, l’utente ottiene sia il meteo attuale sia una previsione dei giorni successivi, con un output ordinato e facile da leggere. Rispetto a una versione base, il progetto è stato migliorato nella struttura del codice e nella qualità della presentazione finale.
+
+Una cosa che migliorerei:
+Se avessi più tempo, migliorerei ulteriormente il progetto creando una vera interfaccia grafica in HTML oppure aggiungendo icone e simboli meteo più intuitivi. Mi piacerebbe anche inserire il salvataggio delle città cercate di recente e una gestione ancora più completa dei codici meteo restituiti dall’API. In questo modo l’app sarebbe non solo funzionale, ma anche più moderna e gradevole da usare.
+
